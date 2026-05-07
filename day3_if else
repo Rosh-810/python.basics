@@ -1,0 +1,29 @@
+#grading based on marks
+marks = 75
+if marks >= 90:
+    print("A grade")
+elif marks >= 60:
+    print("B grade")
+else:
+    print("C grade")
+
+#voting problem
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible")
+
+#even or odd
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+#Ask username, If username == "admin" print "Welcome Admin" or Else "Access denied"
+username = input("enter u r name")
+if username == "admin":
+    print("welcome admin")
+else:
+    print("access denied")

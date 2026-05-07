@@ -1,0 +1,17 @@
+#Create variables:name,age,height,is_student and Print all values
+name = "Roshini"
+age = 20
+height = 5.4
+is_student = True
+print(name)
+print(age)
+print(height)
+print(is_student)
+
+#Asking user:name age Store in variables and print:
+name = input("enter u r name: ")
+age = int(input("enter u r age:"))
+height = float(input("enter u height:"))
+print("name:",name)
+print("age:",age)
+print("height:",height)
