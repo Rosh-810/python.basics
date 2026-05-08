@@ -33,7 +33,7 @@ for i in range(1,n+1):
 #checking a number is prime or not
 a = int(input("enter u r number")):
 if a>1:
-    for i in range(2,a):
+   for i in range(2,a):
       if a%i==0:
         print("its not a prime number"):
       else:
