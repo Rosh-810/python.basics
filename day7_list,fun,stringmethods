@@ -1,0 +1,23 @@
+#Create a function that prints:
+def fun(name):
+    print("welcome",name)
+fun("user")
+
+#Make a list of 5 subjects and print them using a loop
+a = ["rosh","hima","chinu","megh","srav"]
+for i in a:
+    print(i)
+#Ask the user for a name and print it in uppercase.   
+a = input("enter u r name: ")
+print(a.upper())
+
+#Function with Addition
+def add(a, b):
+    print(a + b)
+add(10, 5)
+
+# Function with Return
+def multiply(a, b):
+    return a * b
+result = multiply(4, 5)
+print(result)
